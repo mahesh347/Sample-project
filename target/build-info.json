@@ -1,0 +1,69 @@
+{
+  "version" : "1.0.1",
+  "name" : "maven",
+  "number" : "16",
+  "type" : "MAVEN",
+  "buildAgent" : {
+    "name" : "Maven",
+    "version" : "3.5.2"
+  },
+  "agent" : {
+    "name" : "Jenkins",
+    "version" : "2.98"
+  },
+  "started" : "2018-01-06T23:20:33.941-0500",
+  "durationMillis" : 45121,
+  "principal" : "mahesh",
+  "artifactoryPluginVersion" : "2.14.0",
+  "url" : "http://localhost:8090/job/maven/16/",
+  "vcs" : [ {
+    "revision" : "1d12d05e9809c894243f24bade818658f11a6e24",
+    "url" : "https://github.com/mahesh347/Sample-project.git"
+  } ],
+  "vcsRevision" : "1d12d05e9809c894243f24bade818658f11a6e24",
+  "vcsUrl" : "https://github.com/mahesh347/Sample-project.git",
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : true,
+    "licenseViolationsRecipientsList" : "",
+    "scopesList" : ""
+  },
+  "modules" : [ {
+    "properties" : {
+      "project.build.sourceEncoding" : "UTF-8"
+    },
+    "id" : "com.github.kevinsawicki:github-maven-example:0.1-SNAPSHOT",
+    "artifacts" : [ {
+      "type" : "jar",
+      "sha1" : "07073518a9143735b74f245bb9a58523183ffd93",
+      "md5" : "25a9d2dfe17d467c6c24db522a266851",
+      "name" : "github-maven-example-0.1-SNAPSHOT.jar"
+    }, {
+      "type" : "javadoc-jar",
+      "sha1" : "1ee46583cb12ccc49eff68a4ed74efb41e16cc51",
+      "md5" : "a76290d958d344ffcd03515868073314",
+      "name" : "github-maven-example-0.1-SNAPSHOT-javadoc.jar"
+    }, {
+      "type" : "java-source-jar",
+      "sha1" : "0141cafc422a5bdb61e48d0e699046f29a780dfa",
+      "md5" : "a0761d01add77be99c8cd434c82e89ab",
+      "name" : "github-maven-example-0.1-SNAPSHOT-sources.jar"
+    } ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "4150c00c5706306ef0f8f1410e70c8ff12757922",
+      "md5" : "f9e413f44a96cf5003c71fd097317c1a",
+      "id" : "junit:junit:4.8",
+      "scopes" : [ "test" ]
+    } ]
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  }
+}
