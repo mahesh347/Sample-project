@@ -109,6 +109,17 @@
 							<name>Deploy WebLogic Plugin</name>
 							<version>0.1-SNAPSHOT</version>
 							<packaging>jar</packaging>
+						<configuration>
+							<adminurl>t3://mahesh:7001</adminurl>
+							<user>mahesh</user>
+							<password>Mahesh@123</password>
+							<upload>true</upload>
+							<targets>AdminServer</targets>
+							<remote>true</remote>
+							<verbose>true</verbose>
+							//<source>${project.build.directory}/${project.build.finalName}.${project.packaging}</source>
+							//<name>${project.build.finalName}</name>
+						</configuration>
 						
 						</plugin>
 						<plugin>
